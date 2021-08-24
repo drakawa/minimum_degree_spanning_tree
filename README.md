@@ -6,7 +6,7 @@ A code for creating the minimum-degree spanning tree based on Furer's algorithm 
 
 # Required
 * graphviz
-* networkx,matplotlib,pydot
+* python3,networkx,matplotlib,pydot
 
 # Usage
     $ python3 steiner2.py
