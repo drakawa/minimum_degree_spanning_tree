@@ -125,7 +125,9 @@ def draw_dot(T):
     plt.show()
     plt.clf()
 
-def min_deg_spanning(G, T):
+def min_deg_spanning(G, T_orig):
+    T = T_orig.copy()
+    
     k = max(dict(T.degree).values())
     print("T_orig:")
     print("max_degree:", k)
